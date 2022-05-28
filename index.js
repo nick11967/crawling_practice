@@ -10,12 +10,12 @@ fetch("data2.json")
   });
 
 function appendData(data) {
-  let mainContainer1 = document.getElementById("sportsData");
-  let div1 = document.createElement("div");
+  let mainContainer = document.getElementById("sportsData");
+  let div = document.createElement("div");
   console.log(data);
   //for(int i=0;i<data.sports)
-  div1.innerHTML = data.sports;
-  mainContainer1.appendChild(div1);
+  div.innerHTML = data.sports;
+  mainContainer.appendChild(div);
 
   let mainContainer2 = document.getElementById("entertainsData");
   let div2 = document.createElement("div");
