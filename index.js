@@ -16,10 +16,11 @@ function appendData(data) {
   //for(int i=0;i<data.sports)
   div.innerHTML = data.sports;
   mainContainer.appendChild(div);
-
+  /*
   let mainContainer2 = document.getElementById("entertainsData");
   let div2 = document.createElement("div");
   console.log(data);
   div2.innerHTML = data.entertains;
   mainContainer2.appendChild(div2);
+  */
 }
