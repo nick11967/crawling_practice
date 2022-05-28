@@ -11,16 +11,9 @@ fetch("data2.json")
 
 function appendData(data) {
   let mainContainer = document.getElementById("sportsData");
-  let div = document.createElement("div");
-  console.log(data);
-  //for(int i=0;i<data.sports)
-  div.innerHTML = data.sports;
-  mainContainer.appendChild(div);
-  /*
-  let mainContainer2 = document.getElementById("entertainsData");
-  let div2 = document.createElement("div");
-  console.log(data);
-  div2.innerHTML = data.entertains;
-  mainContainer2.appendChild(div2);
-  */
+  for(let i = 0;i < data[sports].length; i++){
+    let div = document.createElement("div");
+    div.innerHTML = data[sports][i];
+    mainContainer.appendChild(div);
+  }
 }
