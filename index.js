@@ -15,11 +15,11 @@ function appendData(data) {
   console.log(data);
   //for(int i=0;i<data.sports)
   div1.innerHTML = data.sports;
-  mainContainer1.appendChild(div);
+  mainContainer1.appendChild(div1);
 
   let mainContainer2 = document.getElementById("entertainsData");
   let div2 = document.createElement("div");
   console.log(data);
   div2.innerHTML = data.entertains;
-  mainContainer2.appendChild(div);
+  mainContainer2.appendChild(div2);
 }
