@@ -13,6 +13,7 @@ function appendData(data) {
   let mainContainer = document.getElementById("myData");
   let div = document.createElement("div");
   console.log(data);
-  div.innerHTML = data.sports;
+  //for(int i=0;i<data.sports)
+  div.innerHTML = data.sports + '<br>' + data.entertains;
   mainContainer.appendChild(div);
 }
